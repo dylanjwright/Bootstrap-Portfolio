@@ -1,0 +1,62 @@
+/* navbar */
+
+.navbar-brand{
+    margin-left: 10%;
+}
+.navbar-nav{
+    margin-right:10%;
+}
+
+
+/* body */
+body {
+    background-image: url(https://world.fantasticimago.com/wp-content/uploads/2016/03/waves-gray-background-animated-video-web-explainer-fantastic-imago-creative-agency-600x333.png)
+
+}
+
+.top{
+    height: 100px;
+}
+.main{
+ padding-left: 0px;
+ padding-right: 0px;
+}
+
+.card-body{
+    
+}
+
+.card{
+    width: 100%;
+}
+
+img{
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.blankspace1{
+    height: 25px;
+}
+
+.bottomtext{
+    margin: 25px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.bigimg{
+    padding-top: 20px;
+}
+
+ 
+/* footer */
+
+.page-footer{
+    margin-top: 300px;
+    width: 100%;
+}
+
+.border-top{
+}
