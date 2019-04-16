@@ -22,17 +22,13 @@ body {
  padding-right: 0px;
 }
 
-.card-body{
-    
-}
-
 .card{
     width: 100%;
 }
 
-img{
+.catPic{
     float: left;
-    margin-right: 25px;
+    margin: 25px;
     margin-bottom: 20px;
 }
 
@@ -46,8 +42,23 @@ img{
     margin-bottom: 35px;
 }
 
-.bigimg{
-    padding-top: 20px;
+/* .img-fluid {
+    max-width: 100%;
+    height: auto;
+      
+} */
+
+.card-text:last-child {
+    margin-bottom: 25px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.bigimg {
+    margin-bottom: 50px;
 }
 
  
@@ -59,4 +70,48 @@ img{
 }
 
 .border-top{
+}
+
+.textPad {
+    padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+   
+}
+  
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  .img-fluid {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .help {
+    margin: 15px;
+    padding: 0;
+    width: 300px;
+}
+.card-text:last-child {
+    margin-bottom: 0px;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+  
+}
+
+@media screen and (max-width: 640px) {
+    .img-fluid {
+        box-sizing: border-box;
+        width: 100%;
+      }
+    .help {
+        margin: 15px;
+        padding: 0;
+        width: 300px;
+    }
+    .card-text:last-child {
+        margin-bottom: 0px;
+    }
+    
 }
